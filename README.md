@@ -34,43 +34,12 @@ nest new --strict project-name
 
   $ nest g s users / todos / auth
 
-### dotenv 모듈 설치
-npm install dotenv
+### 필요 패키지 설치
+npm install @nestjs/common @nestjs/core @nestjs/mongoose @nestjs/jwt @nestjs/passport mongoose passport passport-jwt bcrypt class-validator class-transformer
+npm install --save-dev @types/passport-jwt @types/bcrypt
+
+
+### 실행
+npm run start:dev
 
 ## 프로젝트 구조
-/frontend
-  /src
-    /components
-      Header.tsx
-      TodoForm.tsx
-      TodoList.tsx
-      TodoItem.tsx
-    /pages
-      Home.tsx
-      Login.tsx
-      Register.tsx
-      TodoListPage.tsx
-    /services
-      api.ts
-    /types
-      todo.ts
-      user.ts
-    App.tsx
-    index.tsx
-
-/backend
-  /src
-    /auth
-      auth.module.ts
-      auth.service.ts
-      auth.controller.ts
-    /users
-      users.module.ts
-      users.service.ts
-      users.controller.ts
-    /todos
-      todos.module.ts
-      todos.service.ts
-      todos.controller.ts
-    app.module.ts
-    main.ts
