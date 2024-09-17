@@ -14,6 +14,9 @@ npm install @mui/icons-material
 ### react-router-dom 설치
 npm install react-router-dom
 
+### react-hook-form 설치
+npm install react-hook-form
+
 ## NestJS 프로젝트 생성
 nest new --strict project-name
 
