@@ -11,6 +11,9 @@ npx create-react-app my-app --template typescript
 npm install @mui/material @emotion/react @emotion/styled \
 npm install @mui/icons-material
 
+### react-router-dom 설치
+npm install react-router-dom
+
 ## NestJS 프로젝트 생성
 nest new --strict project-name
 
